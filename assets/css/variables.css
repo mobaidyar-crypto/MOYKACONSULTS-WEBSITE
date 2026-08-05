@@ -1,0 +1,71 @@
+/* ==========================================================================
+   MOYKA EXECUTIVE ADVISORY - CSS VARIABLES & DESIGN TOKENS
+   Brand identity derived and evolved from moykaconsults.com
+   ========================================================================== */
+
+:root {
+  /* Color Palette */
+  --color-brand-deep: #06101E;        /* Deep Slate / Dark Navy background */
+  --color-brand-slate: #0E1E36;       /* Card & Container surface background */
+  --color-brand-slate-hover: #132746; /* Card hover background */
+  --color-brand-border: #1E2F47;      /* Subtle 1px border divider */
+  --color-brand-border-glow: #2A4365; /* Active/Hover border glow */
+  
+  --color-brand-gold: #C59B27;        /* Exact Brand Gold */
+  --color-brand-gold-hover: #B8972F;  /* Hover/Active brand gold */
+  --color-brand-gold-light: rgba(197, 155, 39, 0.12); /* Subtle gold badge background */
+  --color-brand-gold-glow: rgba(197, 155, 39, 0.25);  /* Gold outline glow */
+  
+  --color-brand-accent: #22D3EE;      /* Electric Cyan highlight indicator */
+  --color-brand-accent-light: rgba(34, 211, 238, 0.1);
+
+  /* Typography Colors */
+  --color-text-primary: #F8FAFC;      /* High contrast white headings */
+  --color-text-secondary: #CBD5E1;    /* Standard readable text */
+  --color-text-muted: #94A3B8;        /* Muted metadata / labels */
+  --color-text-dim: #64748B;          /* Darker muted text */
+
+  /* Typography Fonts */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
+
+  /* Font Weights */
+  --weight-light: 300;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  --weight-extrabold: 800;
+
+  /* Spacing Scale */
+  --space-xs: 0.25rem;  /* 4px */
+  --space-sm: 0.5rem;   /* 8px */
+  --space-md: 1rem;     /* 16px */
+  --space-lg: 1.5rem;   /* 24px */
+  --space-xl: 2rem;     /* 32px */
+  --space-2xl: 3rem;    /* 48px */
+  --space-3xl: 4rem;    /* 64px */
+  --space-4xl: 6rem;    /* 96px */
+
+  /* Layout Boundaries */
+  --container-max-width: 1280px;
+  --container-narrow-width: 960px;
+  --header-height: 80px;
+
+  /* Transitions & Radii */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 30px;
+  --radius-full: 9999px;
+
+  --transition-fast: 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-normal: 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Elevation Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.6);
+  --shadow-gold: 0 8px 30px rgba(197, 155, 39, 0.2);
+}
