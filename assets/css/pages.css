@@ -129,15 +129,21 @@
 }
 
 .matrix-card-negative {
-  background-color: rgba(225, 29, 72, 0.03);
-  border: 1px solid rgba(225, 29, 72, 0.15);
+  background: linear-gradient(135deg, rgba(35, 12, 20, 0.75) 0%, rgba(16, 6, 10, 0.88) 100%);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid rgba(225, 29, 72, 0.28);
+  box-shadow: 10px 10px 24px rgba(2, 6, 12, 0.85), -6px -6px 18px rgba(255, 255, 255, 0.02), inset 0 1px 1px rgba(255, 255, 255, 0.1);
   border-radius: var(--radius-lg);
   padding: var(--space-xl);
 }
 
 .matrix-card-positive {
-  background-color: var(--color-brand-slate);
-  border: 1px solid var(--color-brand-gold-glow);
+  background: linear-gradient(135deg, rgba(14, 30, 54, 0.85) 0%, rgba(6, 16, 30, 0.92) 100%);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid rgba(197, 155, 39, 0.35);
+  box-shadow: 10px 10px 24px rgba(2, 6, 12, 0.85), -6px -6px 18px rgba(255, 255, 255, 0.03), inset 0 1px 1px rgba(255, 255, 255, 0.18), 0 0 25px rgba(197, 155, 39, 0.15);
   border-radius: var(--radius-lg);
   padding: var(--space-xl);
   position: relative;
